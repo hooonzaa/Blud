@@ -1,0 +1,27 @@
+.loginPage{
+display: flex;
+justify-content: center;
+}
+
+.loginContainer{
+display: flex;
+flex-direction: column;
+text-align: center;
+max-width: 40vh;
+border-radius: 5vh;
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5vh;
+}
+.loginButton{
+    color: blue;
+    text-decoration-color: rgb(15, 15, 10);
+    border-radius: 10vh;
+ 
+}
+.loginButton :hover{
+    cursor: pointer;
+    box-shadow: 10vh;
+    color: rgb(228, 228, 228);
+    background-color: black;
+}
